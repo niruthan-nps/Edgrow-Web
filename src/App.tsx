@@ -20,8 +20,9 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      <NetlifyForms />
       <BrowserRouter>
-       <NetlifyForms />
+       
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/community" element={<EdGrowLK />} />
