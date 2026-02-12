@@ -11,6 +11,7 @@ import Partners from "./pages/Partners";
 import Volunteer from "./pages/Volunteer";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import NetlifyForms from "@/components/NetlifyForms";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +21,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+       <NetlifyForms />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/community" element={<EdGrowLK />} />
